@@ -2,11 +2,11 @@
    Edit this file to change contact details, prices, names and photographs. */
 window.SITE = {
   brand: "Luxe by Nazeefah",
-  phoneDisplay: "08130903110",
-  phoneIntl: "2348130903110",          // WhatsApp format: country code + number, no plus sign
+  phoneDisplay: "08067567604",
+  phoneIntl: "2348067567604",          // WhatsApp format: country code + number, no plus sign
   location: "Gombe, Nigeria",
-  instagramName: "zeefarhs clothing brand",
-  instagramUrl: "https://www.instagram.com/", // REPLACE with the exact profile link
+  instagramName: "_naxee.faah",
+  instagramUrl: "https://www.instagram.com/_naxee.faah", // REPLACE with the exact profile link
   currency: "\u20A6"
 };
 
