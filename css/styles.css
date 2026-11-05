@@ -1,0 +1,20 @@
+html { scroll-behavior: smooth; }
+body { background: #F6EFE2; color: #3B2A22; font-family: "Jost", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, .font-serif { font-family: "Cormorant Garamond", Georgia, serif; }
+[id] { scroll-margin-top: 5rem; }
+.img-frame { width: 100%; overflow: hidden; background: #E6D8C3; border-radius: 2px; }
+.img-multiply { mix-blend-mode: multiply; }
+.skeleton { background: linear-gradient(90deg, #E6D8C3 0%, #EFE4D0 50%, #E6D8C3 100%); background-size: 200% 100%; animation: skel 1.6s linear infinite; }
+.skeleton img { opacity: 0; }
+@keyframes skel { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+@media (prefers-reduced-motion: reduce) { .skeleton { animation: none; } html { scroll-behavior: auto; } }
+.btn-primary, .btn-outline { display: inline-block; padding: .85rem 1.6rem; font-size: .75rem; letter-spacing: .18em; font-weight: 500; border-radius: 2px; border: 1px solid #5E1224; line-height: 1.2; }
+.btn-primary { background: #5E1224; color: #F6EFE2; }
+.btn-primary:hover { background: #461019; }
+.btn-outline { color: #5E1224; background: transparent; padding: .7rem 1rem; }
+.btn-outline:hover { background: #5E1224; color: #F6EFE2; }
+.footer-h { font-size: .75rem; letter-spacing: .2em; text-transform: uppercase; color: #B89B62; margin-bottom: 1rem; }
+.footer-a { color: rgba(246,239,226,.85); }
+.footer-a:hover { color: #fff8ea; text-decoration: underline; }
+.prose-page p { margin-top: 1rem; line-height: 1.8; }
+.prose-page h2 { font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.5rem; color: #5E1224; margin-top: 2rem; }
